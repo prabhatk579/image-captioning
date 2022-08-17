@@ -1,8 +1,10 @@
-# image-captioning
+Image Captioning
+===
 
 Image captioning may can be defined as the process of generation of human redable text which captions an image. For human it's very easy but for machines, it need to know every features of the image and their context to create a caption which is readable by a human being.
 
 Steps for image captioning:
+
 - Feature extraction from images.
 - Cleaning and preperation of the description and dataset for caption generation
 - Craeting the model
@@ -24,5 +26,3 @@ In Whole description sequence model we would use an encoding of the image to gen
 ##### Word-By-Word Model
 
 In word-by-word model, we generate a caption for photographs by generating one word given both the image as input and the last word generated. This model would then have to be called recursively to generate each word in the description with previous predictions as input.
-
-#### Preperation of dataset
